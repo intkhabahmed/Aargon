@@ -1,0 +1,452 @@
+/****************************Common CSS**************************/
+.padding-10x{
+	padding: 10px;
+}
+.padding-5x{
+	padding: 5px;
+}
+.padding-20x{
+	padding: 20px;
+}
+
+.center{
+	display: block;
+	margin: 0 auto; 
+}
+.no-margin {
+	margin: 0;
+}
+.error {
+	color: red;
+}
+hr {
+	border-top: 1px solid #1d5b99;
+    border-bottom: 1px solid #5195d9;
+}
+body {
+	font-family: Roboto Light !important;
+	font-size: 24px !important;
+}
+
+/***********************Index Page*********************************/
+#home {
+	padding-top: 94px;
+}
+#formContainer {
+	border-radius: 6px;
+	padding: 10px;
+	z-index: 1;
+	background-color: #000000;
+	opacity: 0.6;
+}
+
+#login_btn_cover {
+	padding: 3px;
+}
+
+#homeBannerImage{
+	min-height: 370px;
+	z-index: 1;
+}
+
+#content-box {
+	margin-top: 100px;
+}
+
+.content-heading {
+	color: #010101;
+	font-size: 36px;
+}
+
+.middle-heading {
+	font-size: 36px;
+	color: #FFFFFF !important;
+	margin-top: 50px;
+}
+
+
+#main-nav li a {
+	color: #3d3d3d;
+	font-family: Roboto Regular !important;
+	font-size: 24px;
+}
+#main-nav img {
+	padding-bottom: 15px;
+}
+
+#home-banner {
+	position: sticky;
+	top: 95px;
+}
+
+#middle-container {
+	background-color: #FFFFFF;
+}
+
+#container-cover {
+	width: 100%;
+	background-color: #FFFFFF;
+}
+
+#domains-container {
+	margin-top: 100px;
+}
+
+.testimonial-container {
+	margin-top: 10px;
+}
+
+.testimonial-container p {
+	font-size: 16px;
+}
+
+#button-container {
+	margin-top: 90px;
+	margin-bottom: 40px;
+}
+
+#button-container button, #banner-button-container button {
+	color: #FFFFFF !important;
+	background-color: #e48d2c;
+	border-radius: 6px;
+	padding: 5px 15px;
+}
+
+#banner-button-container {
+	position: absolute;
+	right: 15%;
+	top: 35%;
+}
+
+@media screen and (min-width: 991px){
+	.navbar-custom-fitting {
+		width: 100%;
+	}
+	.container {
+		max-width: 1920px;
+	}
+	
+	.navbar-brand {
+		padding: 10px !important;
+		height: auto;
+	}
+	#main-nav {
+		height: 53px;
+		padding-top: 10px;
+	}
+	nav> .container {
+		height: 70px;
+	}
+	#loginWindow {
+		width: 30vw;
+		left: 35vw;
+	}
+	#uploadWindow {
+		width: 40vw;
+		left: 30vw;
+	}
+	#confirmQueryWindow, #confirmMessageWindow {
+		width: 30vw;
+		left: 35vw;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 990px){
+	#main-nav {
+		height: 40px;
+		padding-top: 10px;
+		color: #3d3d3d;
+	}
+	.navbar-custom-fitting {
+		width: 100%;
+	}
+	.navbar-brand {
+		padding: 10px !important;
+    	height: auto;
+	}
+	#login_button {
+		margin-bottom: 2px;
+		margin-left: 5px;
+	}
+	nav> .container {
+		height: 92px;
+	}
+	#loginWindow {
+		width: 40vw;
+		left: 35vw;
+	}
+	#uploadWindow {
+		left: 30vw;
+		width: 40vw;
+	}
+	#confirmQueryWindow, #confirmMessageWindow {
+		width: 30vw;
+		left: 35vw;
+	}
+}
+
+@media screen and (max-width: 767px){
+	nav> .container {
+		padding: 2px;
+		width: 100%;
+		height: auto;
+	}
+
+	.navbar-custom-fitting {
+		width: 100%;
+	}
+	.navbar-brand {
+		padding: 0px 25px !important;
+	}
+	.navbar-header {
+		height: 90px;
+	}
+	#main-nav {
+		margin-top: 39px;
+		background-color: #ffffff;
+   	 	padding: 15px;
+
+	}
+	.container {
+		max-width: 100%;
+		width: 100%;
+	}
+	#loginWindow {
+		width: 100%;
+	}
+	#uploadWindow {
+		width: 100%;
+	}
+	#confirmQueryWindow, #confirmMessageWindow {
+		width: 100%;
+	}
+	.navbar-toggle {
+		margin-top: 30px;
+    	margin-right: 45px;
+	}
+}
+
+.navbar-nav {
+	font-size: 26px !important;
+}
+
+/*.navbar-nav> .active a {
+	border-bottom: 2px solid #00b1d7 ;
+	color: #3399cc !important;
+	background-color: transparent !important; 
+}*/
+
+.navbar {
+	border-radius: 0px;
+}
+
+.navbar-custom {
+	background: #FFFFFF;
+}
+
+.navbar-nav a {
+	transition: all 0.5s ease-in-out;
+}
+
+.navbar-nav a{
+	color: #000000;
+}
+
+.navbar-custom-fitting {
+	position: fixed;
+	top: 0;
+	z-index: 1030;
+	box-shadow: -1px 1px 11px 0px #d2d2d2;
+}
+
+.navbar-nav>li>a {
+	padding: 8px 15px !important;
+}
+
+/***********************UserProfile Page*********************************/
+.navbar-toggle>.icon-bar {
+	background-color: #000000;
+}
+.navbar-toggle {
+	border-color: #000000;
+}
+.navbar-toggle:hover {
+	border-color: #333333;
+	background-color: #eeeeee;
+}
+
+/***********************Footer******************************************/
+/*#footer{
+	padding: 5px;
+	width: 100%;
+	background: #000;
+	color: #fff;
+	position: fixed;
+	bottom: 0;
+	min-height: 60px;
+}*/
+
+#footer {
+	background-color: #dbdada;
+}
+
+#footer footer{
+	margin-top: 30px;
+}
+
+#footer p {
+	font-size: 16px;
+}
+/***********************Error Page*********************************/
+#errorBlock{
+	position: absolute;
+	top: 15%;
+	width: 100%;
+}
+
+/***********************Login Modal View*********************************/
+.overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	opacity: 0.7;
+	min-height: 100%;
+	display: none;
+	background-color: #000000;
+	z-index: 1031;
+	cursor: pointer;
+}
+#loginWindow, #uploadWindow, #confirmQueryWindow, #confirmMessageWindow {
+	position: fixed;
+	top: 25vh;
+	z-index: 1032;
+	opacity: 1;
+	display: none;
+	color: #ffffff;
+	background-color: #00b1d7;
+	padding: 10px;
+}
+#loginWindow a {
+	color: #262525;
+}
+
+#login_form input, #upload_form input, #queryReply_form input{
+	margin: 10px 0;
+
+}
+
+textarea {
+    resize: none;
+}
+
+#left-control-button, #right-control-button {
+	padding-bottom: 5px;
+	background-color: #ffffff;
+	color: #000000;
+}
+
+#aboutus {
+	padding: 10px;
+	color: #262525;
+}
+.client_desc {
+	border: 2px solid #eeeeee;
+	padding: 10px;
+}
+
+#aboutus h2, .client_desc h3{
+	color: #3399cc;
+}
+.carousel-control {
+	top: 50%;
+}
+.carousel-control.left, .carousel-control.right {
+	background-image: none;
+	height: 10px
+} 
+
+#downarrow {
+	position: absolute;
+	bottom: 40px;
+	left: 50%;
+	z-index: 1;
+}
+
+
+#contactus {
+	background: url('../images/AR/tes_bg.png');
+	color: #ffffff;
+	width: 100%;
+	padding: 10px;
+	margin-top: 150px;
+}
+
+#contactus p {
+	color: #e0e9f4;
+}
+#contactus form select, #contactus form textarea{
+	background: transparent;
+	color: #ffffff;
+}
+form .form-control {
+	border-color: #919191;
+	background-color: transparent;
+}
+ form select {
+	margin: 5px 0;
+}
+#sendMail_btn {
+	background: #00b1d7 !important;
+	font-size: 26px;
+	padding-top: 0px;
+	color: #000000 !important;
+	border: 0px;
+}
+
+#login_btn, #uploadSubmit_btn, input[type=submit], .btn {
+	font-size: 26px;
+	padding-top: 0px;
+	color: #000000 !important;
+	border: 0px;
+}
+
+#sendMail_btn:hover, #querySubmit_btn:hover, .delete_btn:hover {
+	color: #ffffff !important;
+}
+#login_btn, #deleteQuery_btn, .cancel_btn {
+	background: #ffffff !important;
+}
+
+#login_btn:hover, #uploadSubmit_btn:hover, #deleteQuery_btn:hover, .cancel_btn:hover {
+	color: #00b1d7 !important;
+}
+
+.contactus_body {
+	height: 298px;
+}	
+.img-container {
+	overflow: hidden;
+    line-height: 1.42857143;
+    background-color: #fff;
+    max-width: 324px;
+    margin: 10px auto;
+}
+.img-container p {
+	position: absolute;
+    bottom: 0%;
+    left: 25%;
+    right: 25%;
+	color: #FFFFFF;
+}
+
+.img-container img {
+	margin: 0 auto;
+}
+
+#profile_logo_container {
+	box-shadow: 0px 1px 11px 0px #d2d2d2;
+	padding: 5px;
+	width: 100%;
+}
+	
