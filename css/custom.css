@@ -105,7 +105,7 @@ body {
 	margin-bottom: 40px;
 }
 
-#button-container button, #banner-button-container button {
+#button-container a, #banner-button-container a {
 	color: #FFFFFF !important;
 	background-color: #e48d2c;
 	border-radius: 6px;

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>BeneesFradia</title>
+		<title>Aargon</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -38,15 +38,15 @@
 					<!-- <div class="row"> -->
 					<div id="home-banner">
 						<div id="banner-button-container">
-							<Button class="btn">&nbsp;Find Job&nbsp;&nbsp;</Button>
-							<Button class="btn">Find Talent</Button>
+							<a href="jobs.html" target="_blank" class="btn btn-warning">&nbsp;Find Job&nbsp;&nbsp;</a>
+							<a href="talents.html" target="_blank" class="btn btn-warning">Find Talent</a>
 							<div id="formContainer">
-								<form class="form form-vertical">
-									<input type="text" name="name" class="form-control"><br>
-									<input type="email" name="email" class="form-control"><br>
-									<input type="text" name="phone" class="form-control"><br>
-									<input type="text" name="jobtitle" class="form-control"><br>
-									<input type="submit" name="submit" value="Submit">
+								<form class="form form-vertical" method="post" action="mailto:help@homecarecentre.in" enctype="text/plain" id="contact_form">
+									<input type="text" name="name" class="form-control" placeholder="name"><br>
+									<input type="email" name="email" class="form-control" placeholder="email"><br>
+									<input type="text" name="phone" class="form-control" placeholder="phone"><br>
+									<input type="text" name="jobtitle" class="form-control" placeholder="job title"><br>
+									<input type="submit" value="Submit">
 								</form>
 							</div>
 						</div>
@@ -151,8 +151,8 @@
 									</div>
 								</div>
 								<div id="button-container" align="center">
-									<Button class="btn">&nbsp;Find Job&nbsp;&nbsp;</Button>
-									<Button class="btn">Find Talent</Button>
+									<a href="jobs.html" target="_blank" class="btn btn-warning">&nbsp;Find Job&nbsp;&nbsp;</a>
+									<a href="talents.html" target="_blank" class="btn btn-warning">Find Talent</a>
 								</div>
 							</div>
 							<!--end contactus-->
