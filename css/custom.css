@@ -227,6 +227,7 @@ body {
 	#detailWindow {
 		width: 80vw;
 		left: 10vw;
+		max-height: 550px;
 	}
 	#uploadWindow {
 		left: 30vw;
@@ -266,6 +267,7 @@ body {
 	}
 	#detailWindow {
 		width: 100%;
+		max-height: 550px;
 	}
 	#uploadWindow {
 		width: 100%;
