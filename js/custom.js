@@ -116,42 +116,138 @@ $(function(){
 					"</ul>");
 				break;
 			case 'item3':
-				detail.html("<h2 align='center'>Data Analytics</h2><hr>"+
-					"<p></p>"+
-					"<p></p>"+
-					"<p></p>"+
-					"<p></p>"+
-					"<p></p>"+
+				detail.html("<h2 align='center'>Project Services and Change Management</h2><hr>"+
+					"<p>We are committed to help our clients shape, support and drive their strategic business initiatives by providing Project Services and Change Management. We can support our clients throughout a project’s lifecycle - from conception to delivery.</p>"+
+					"<p>Aragon caters to private and government clients across Australia in key industries, such as inancial Services, Information Technology, Telecommunication, Healthcare, Construction, Mining, Retailing, Management and Technical Consulting.</p>"+
+					"<p>We have capabilities to support various types of projects in a timely manner with high quality candidates, such as:</p>"+
 					"<ul>"+
-					"<li></li>"+
-					"<li></li>"+
-					"<li></li>"+
-					"<li></li>"+
-					"<li></li>"+
-					"<li></li>"+
-					"<li></li>"+
-					"<li></li>"+
-					"<li></li>"+
-					"<li></li>"+
-					"</ul>"
+					"<li>Adapting to legislative and regulatory change</li>"+
+					"<li>Business process re-engineering and operational excellence projects</li>"+
+					"<li>Human resources and systems change programs</li>"+
+					"<li>Institutional and culture strengthening</li>"+
+					"<li>Mergers, acquisitions, company sale, restructuring or relocation</li>"+
+					"<li>Outsourcing and insourcing of processes, people and/or Technology</li>"+
+					"<li>Product creation and delivery</li>"+
+					"<li>Technology projects of all kinds</li>"+
+					"</ul>"+
+					"<p>Aragon can help you get the right people into your team, whether you need a contractor, fixed-term hire, permanent employee or an entire team; bring in specific domain expertise; or change a culture, process or system.</p>"+
+					"<p>Aragon can help you recruit for various roles, such as:</p>"+
+					"<table class='table table-bordered'><tr>"+
+					"<td>Business and Systems Analysis"+
+					"<ul>"+
+					"<li>Business Analyst</li>"+
+					"<li>Systems Analyst</li>"+
+					"<li>Technical Business Analyst</li>"+
+					"<li>Functional Consultant</li>"+
+					"<li>Head of Business Analysis</li>"+
+					"</ul></td>"+
+					"<td>Change Management and Analysis <ul>"+
+					"<li>Change Analyst/Manager/Director</li>"+
+					"<li>Head of Change</li>"+
+					"</ul></td></tr>"+
+					"<tr><td>Learning and Development"+
+					"<ul>"+
+					"<li>Instructional Designer</li>"+
+					"<li>Learning and Development Advisor/Manager</li>"+
+					"<li>Trainer</li>"+
+					"</ul></td>"+
+					"<td>Process"+
+					"<ul>"+
+					"<li>Process Management and Analysis</li>"+
+					"<li>Lean and Six Sigma Specialists</li>"+
+					"<li>Process Excellence /Business Improvement</li>"+
+					"</ul></td></tr>"+
+					"<tr><td colspan='2'>Project Management"+
+					"<ul>"+
+					"<li>Project, Programme and PMO Management/Directorship</li>"+
+					"<li>Project/PMO/Programme Coordination</li>"+
+					"<li>Portfolio Management</li>"+
+					"<li>Project and MAster Project Schedulers</li>"+
+					"</ul></td>"+
+					"</tr></table>"
 					);
 				break;
 			case 'item4':
-				detail.html("<h2 align='center'>Data Analytics</h2><hr>"+
-					"<p></p>"+
-					"<p></p>"+
-					"<p></p>"+
-					"<p></p>"+
-					"<p></p>"
+				detail.html("<h2 align='center'>Sales/Pre-Sales</h2><hr>"+
+					"<p>At Aragon, we understand sales, its costs and its rewards. In the VUCA world (volatility, uncertainty, complexity, and ambiguity), the best sales professionals can prove to be the difference between success and failure. A poor sales professionals cost you more than just missed sales and opportunities. You waste time, there is dent in a company's goodwill and most critically you have demotivated sales team. To avoid this damage to your business, we bring you the best talent in the market.</p>"+
+					"<p>Aragon can help you recruit for various role types and specialised domains, such as:</p>"+
+					"<table class='table table-bordered'><tr>"+
+					"<td>Role Types"+
+					"<p>Account Manager/Director</p>"+
+					"<ul>"+
+					"<li>Business Development</li></ul>"+
+					"<p>Manager/Director</p>"+
+					"<li>Channel Manager/Director</li>"+
+					"<li>Enterprise Sales Executive</li>"+
+					"<li>Head of Channels</li>"+
+					"<li>Head of Pre-Sales</li>"+
+					"<li>Head of Sales</li>"+
+					"<li>Inside Sales Execuive/Manager</li>"+
+					"<li>Pre-Sales Consultant/Manager</li>"+
+					"<li>Sales Manager/Director</li>"+
+					"<li>SMB - Corporate Sales Executive</li>"+
+					"<li>VP/GM of Sales</li>"+
+					"</ul></td>"+
+					"<td>Domains"+
+					"<ul>"+
+					"<li>Data Anatytivs and Information</li></ul>"+
+					"<p>Management</p>"+
+					"<ul><li>eCommerce</li>"+
+					"<li>Enterprise DIgital, Social and Marketing</li></ul>"+
+					"<p>Management</p>"+
+					"<ul><li>Governance, Risk and Compliance</li>"+
+					"<li>ICT Services and Business Process</li></ul>"+
+					"<p>Outsourcing</p>"+
+					"<ul><li>Payments and Banking Solutions</li>"+
+					"<li>Saas, Cloud and Mobility</li>"+
+					"<li>Security</li>"+
+					"</ul></td>"+
+					"</tr></table>"
 					);
 				break;
 			case 'item5':
-				detail.html("<h2 align='center'>Data Analytics</h2><hr>"+
-					"<p></p>"+
-					"<p></p>"+
-					"<p></p>"+
-					"<p></p>"+
-					"<p></p>");
+				detail.html("<h2 align='center'>Market Research</h2><hr>"+
+					"<p>Market Research is an integral part of most businesses. We can help you hire the right talent on permanent and contract basis across a vast array of industry sectors, such as strategy, media, brand and marketing, research and insight.</p>"+
+					"<p>Aragon does not rely on traditional, reactive methods used by many other agencies to hire talent. When a client has a specific talent requirement, we tap into our unique pool of best-qualified candidates, thereby providing a responsive service. </p>"+
+					"<p>Typical roles we recruit include:</p>"+
+					"<table class='table table-bordered'><tr>"+
+					"<td>For Corporate Clients"+
+					"<ul>"+
+					"<li>Analysts</li>"+
+					"<li>Category Insights</li>"+
+					"<li>Customer/Consumer Insights Managers</li>"+
+					"<li>Directors/Executive Managers</li>"+
+					"<li>Managers</li>"+
+					"<li>Project Managers</li>"+
+					"<li>Research Managers</li>"+
+					"<li>Segment and Insight Managers</li>"+
+					"<li>Shopper Insights</li>"+
+					"</ul></td>"+
+					"<td>For Market Research Agencies"+
+					"<ul><li>Account Directors</li>"+
+					"<li>Account Managers</li>"+
+					"<li>Brand/Marketing Consultants</li>"+
+					"<li>Business Development and Sales</li>"+
+					"<li>Data Analysts</li>"+
+					"<li>Directors</li>"+
+					"<li>MDs/CEOs/Partners</li>"+
+					"<li>Programmers and Operations</li>"+
+					"<li>Project Managers</li>"+
+					"<li>Strategy Planners</li>"+
+					"</ul></td></tr>"+
+					"<tr><td colspan='2'>Research Skills and Expertise we recruit:<ul>"+
+					"<li>Advanced Quantitative Specialist</li>"+
+					"<li>Awareness and Usage</li>"+
+					"<li>B2B Research, Brand, Comms and Public Relations, Competitive and Market Intelligence, Customer Insights, Employee and Human Resources, Healthcare, Media, Omnibus, Sensory, Shopper. Social and Opinion, Strategy and Syndicated</li>"+
+					"<li>Customer Satisfaction and Experience</li>"+
+					"<li>In-depth Interviews, Focus Groups, Immersions, Online Qual Techniques and Semiotics</li>"+
+					"<li>Management, Panel Management and Internet Usage/Website Evaluation</li>"+
+					"<li>Online Research - Community</li>"+
+					"<li>Product, Packaging and Pricing</li>"+
+					"<li>Qualitative Research - Ethnography,</li>"+
+					"<li>Trackers - Advertising, Brand and Attitude</li>"+
+					"</ul></td></tr></table>"
+					);
 				break;
 			case 'item6':
 				detail.html("<h2 align='center'>Data Analytics</h2><hr>"+
