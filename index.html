@@ -28,9 +28,9 @@
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right" id="main-nav">
 							<li class="active" align="center"><a href="#home"><img src="images/AR/home.png"><br/> HOME <span class="sr-only">(current)</span></a></li>
-							<li><a href="#aboutus" align="center"><img src="images/AR/aboutus.png"><br/>ABOUT US</a></li>
-							<li><a href="#expertise" align="center"><img src="images/AR/expertise.png"><br/>EXPERTISE</a></li>
-							<li><a href="#contactus" align="center"><img src="images/AR/contactus.png"><br/>CONTACT US</a></li>
+							<li><a href="#container-cover" align="center"><img src="images/AR/aboutus.png"><br/>ABOUT US</a></li>
+							<li><a href="#domains-container" align="center"><img src="images/AR/expertise.png"><br/>EXPERTISE</a></li>
+							<li><a href="#footer" align="center"><img src="images/AR/contactus.png"><br/>CONTACT US</a></li>
 						</ul>
 						</div><!-- /.navbar-collapse -->
 						</div><!-- /.container-fluid -->
@@ -41,7 +41,7 @@
 							<a href="jobs.html" target="_blank" class="btn btn-warning">&nbsp;Find Job&nbsp;&nbsp;</a>
 							<a href="talents.html" target="_blank" class="btn btn-warning">Find Talent</a>
 							<div id="formContainer">
-								<form class="form form-vertical" method="post" action="mailto:help@homecarecentre.in" enctype="text/plain" id="contact_form">
+								<form class="form form-vertical form-responsive" method="post" action="mailto:help@homecarecentre.in" enctype="text/plain" id="contact_form">
 									<input type="text" name="name" class="form-control" placeholder="name"><br>
 									<input type="email" name="email" class="form-control" placeholder="email"><br>
 									<input type="text" name="phone" class="form-control" placeholder="phone"><br>
@@ -56,6 +56,25 @@
 					<!-- </div> -->
 					
 					<div id="container-cover">
+						<div class="row">
+							<div class="col-xs-8 col-xs-offset-2">
+								<div id="banner-button-container-sm">
+									<div align="center">
+										<a href="jobs.html" target="_blank" class="btn btn-warning">&nbsp;Find Job&nbsp;&nbsp;</a>
+										<a href="talents.html" target="_blank" class="btn btn-warning">Find Talent</a>
+									</div>
+									<div id="formContainer">
+										<form class="form form-vertical" method="post" action="mailto:help@homecarecentre.in" enctype="text/plain" id="contact_form">
+											<input type="text" name="name" class="form-control" placeholder="name"><br>
+											<input type="email" name="email" class="form-control" placeholder="email"><br>
+											<input type="text" name="phone" class="form-control" placeholder="phone"><br>
+											<input type="text" name="jobtitle" class="form-control" placeholder="job title"><br>
+											<input type="submit" value="Submit">
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
 						<div class="container" id="middle-container">
 							<div class="container" id="content-box">
 								<div class="row">
@@ -224,7 +243,6 @@
 								</div><!--container cover-->
 								<!--end row-->
 								<div class="overlay" title="click to close"></div>
-
 								<div id="detailWindow"></div>
 								
 								<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
